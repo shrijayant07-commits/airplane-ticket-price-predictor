@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e1117;
+    color: white;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+    color: #cccccc;
+}
+
+h2 {
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+form {
+    background-color: #1c1f26;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #292c34;
+    color: white;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 25px;
+    padding: 14px 25px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+.result {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #1c1f26;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.result h1 {
+    color: #22c55e;
+    font-size: 36px;
+}
+
+.result p {
+    color: #cccccc;
+}

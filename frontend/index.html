@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Airplane Ticket Price Predictor</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>✈️ Airplane Ticket Price Predictor</h1>
+
+        <p>Welcome! Predict your flight ticket price.</p>
+
+        <h2>Enter Flight Details</h2>
+
+        <form id="predictionForm">
+
+            <h3>Flight Information</h3>
+
+            <label>Select Airline</label>
+<select name="airline" id="airline" required>
+    <option value="">Select Airline</option>
+</select>
+            <label>Select Source City</label>
+<select name="source_city" id="source_city" required>
+    <option value="">Select Source City</option>
+</select>
+
+<label>Select Destination City</label>
+<select name="destination_city" id="destination_city" required>
+    <option value="">Select Destination City</option>
+</select>
+
+<label>Select Class</label>
+<select name="travel_class" id="travel_class" required>
+    <option value="">Select Class</option>
+</select>
+
+<label>Select Departure Time</label>
+<select name="departure_time" id="departure_time" required>
+    <option value="">Select Departure Time</option>
+</select>
+
+<label>Select Arrival Time</label>
+<select name="arrival_time" id="arrival_time" required>
+    <option value="">Select Arrival Time</option>
+</select>
+
+<label>Select Stops</label>
+<select name="stops" id="stops" required>
+    <option value="">Select Stops</option>
+</select>
+
+
+<label>Flight Duration (Hours)</label>
+<input type="number" name="duration" step="0.1" min="0.5" required>
+
+
+<label>Days Left for Travel</label>
+<input type="number" name="days_left" min="1" max="49" required>
+
+            <button type="submit">Test Form</button>
+
+        </form>
+
+<div class="result" id="result" style="display: none;">
+
+    <h2>Predicted Ticket Price</h2>
+
+    <h1 id="predictedPrice"></h1>
+
+    <p>This is the estimated flight ticket price.</p>
+
+</div>
+
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
+
